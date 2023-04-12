@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Neuronal Colores</title>
+    <style type="text/css">
+        #sitio {
+            padding: 5rem;
+            font-size: 5rem;
+            margin-left: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <input value="FFA000" data-jscolor="{preset:'small dark', position:'right'}"> -->
+    <input data-jscolor="{onInput:'update(this)'}" id="colorInput">
+    <!-- <input data-jscolor="{value:'#CC66FF'}", onInput="update(this.jscolor)"> -->
+    <div id="sitio">
+        Hello World
+    </div>
+    <script src="jscolor.js"></script>
+
+    <script src="https://unpkg.com/brain.js"></script>
+
+
+    <script src="indexColor.js"></script>
+
+</body>
+
+</html>
